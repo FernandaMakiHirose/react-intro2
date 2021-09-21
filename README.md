@@ -101,6 +101,9 @@ React Redux:
 >npm install --save-dev redux-devtools
 
 Instale a extensão:
+![redux](https://user-images.githubusercontent.com/72028645/134182530-f3f88b98-5755-4c8f-aa83-0db3f28ec9b4.png)
+
+- Abra a extensão pelo inspetor do navegador
 
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
@@ -112,6 +115,8 @@ Instale a extensão:
 `\src\aula-1\parte-3\components\NameForm.jsx`: Componente controlado <br>
 `\src\aula-1\parte-3\components\SorveteForm.jsx`: Componente controlado <br>
 `\src\aula-1\parte-3\components\FileInput.jsx`: Componente não controlado <br>
+`\src\aula-2\components\Counter.jsx`: Redux
+`\src\redux`: Redux
 
 ## Documentações
 - [Estilização de componentes e elementos CSS](https://www.w3schools.com/react/react_css.asp)
