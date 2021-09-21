@@ -8,7 +8,7 @@
 Possui gerenciamento de estados no componente. Construídos usando classes em JS.
 
 ## Ciclo de vida
-![ciclo](https://user-images.githubusercontent.com/72028645/134171782-0bab47ee-cb36-4a8a-96c3-e68bf0d71f71.png)
+![ciclodevida](https://user-images.githubusercontent.com/72028645/134172165-a434f09c-282c-4b5b-b3d6-052680a6f05f.png)
 
 ## Documentações
 [Estilização de componentes e elementos CSS](https://www.w3schools.com/react/react_css.asp)
