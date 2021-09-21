@@ -161,6 +161,33 @@ Instale a extensão:
 - Selenium
 - Puppeteer
 
+## Teste de componente
+Usar o react-testing-library:
+>yarn add --dev @testing-library/react
+
+Para extensões de comparação no Jest:
+>yarn add --dev @testing-library/jest-dom/extend-expect
+
+## BDD
+- Behavior-Driven Development
+- Teste de especificação
+- Une especificação, teste automatizado e premissa de teste (documento de teste)
+- Sintaxe de steps para definir cenários
+- Descreve cada funcionalidade por feature (caso de uso)
+
+## Bibliotecas de teste
+- Jest-cucumber
+- Chai
+
+## Instalar o Jest-cucumber
+>yarn add --dev jest-cucumber
+
+## Debugging
+Depuração é o processo de encontrar e reduzir defeitos em um software. As ferramentas mais comuns são:
+- Chrome Devtools
+- Redux Devtools
+- React Devtools
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
@@ -173,8 +200,10 @@ Instale a extensão:
 `\src\aula-1\parte-3\components\FileInput.jsx`: Componente não controlado <br>
 `\src\aula-2\components\Counter.jsx`: Redux <br>
 `\src\aula-3\Components\Topico3`: Axios <br> 
+`\src\aula-4\parte-1\components\soma\`: Testes <br>
 `\src\redux`: Redux <br>
 
 ## Documentações
 - [Estilização de componentes e elementos CSS](https://www.w3schools.com/react/react_css.asp)
 - [Stateful e Stateless](https://programmingwithmosh.com/javascript/stateful-stateless-components-react/)
+- [Como usar a extensão Redux Devtool](https://www.youtube.com/watch?v=IlM7497j6LY)
