@@ -188,6 +188,12 @@ Depuração é o processo de encontrar e reduzir defeitos em um software. As fer
 - Redux Devtools
 - React Devtools
 
+## Tratamentos de erros
+- Resiliência em SW
+- Segurança
+- Forms: Deixar um campo obrigatório, criar máscaras de validação, tratar caracteres proibidos, dados inválidos, mensagens de alerta
+- Em JavaScript: PropTypes, podendo usar linguagens tipadas como TypeScript, definindo interfaces 
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
