@@ -67,6 +67,34 @@ Flux é um padrão de projeto para tráfego de dados de maneira unidirecional
 - Centralizam a informação
 - "Flux libraries are like glasses: you'll know when you need them" - Dan Abramov
 
+## Redux
+3 princípios:
+- Single source of truth: Uma única store (diferente de Flux, que tem várias stores e o dispatcher conecta as stores
+- State é read-only
+- Mudanças são feitas com pure functions (o estado é imutável)
+
+### Actions
+- Actions são como o Flux
+- Diferença: Actions não enviam a action em si para o dispatcher
+- Retornam um objeto de action formatado
+
+### Store
+- Em Flux: diversas Stores
+- Em Redux: uma única Store
+- A Store cuida de toda a árvore de estados
+- Os reducers descobrem qual estado muda
+
+### Reducers
+- Em Redux não há dispatcher (simplifica e divide o trabalho da Store)
+- A Store se conecta ao root reducer, que divide os estados em pequenos reducers para descobrir como lidar com esse estado
+- Os estados são imutáveis
+
+### Views
+Em React, adiciona na camada de View 3 novos conceitos para conectar a View à Store:
+1. Provider
+2. connect()
+3. selector
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
