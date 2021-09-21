@@ -95,6 +95,13 @@ Em React, adiciona na camada de View 3 novos conceitos para conectar a View à S
 2. connect()
 3. selector
 
+## Instalando o Redux
+React Redux:
+>npm install react-redux
+>npm install --save-dev redux-devtools
+
+Instale a extensão:
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
