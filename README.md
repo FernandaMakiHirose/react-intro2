@@ -40,6 +40,33 @@ A tag input é read-only
 ## Ciclo de vida
 ![ciclodevida](https://user-images.githubusercontent.com/72028645/134172165-a434f09c-282c-4b5b-b3d6-052680a6f05f.png)
 
+## Arquitetura Flux
+Flux é um padrão de projeto para tráfego de dados de maneira unidirecional
+
+### Action
+É como um telégrafo, ele formata a mensagem a ser enviada
+
+### Dispatcher 
+É como um telefonista, ele sabe todos os callbacks para diferentes Stores
+
+### Store
+É como um gerente super controlador, ele guarda as informações e todas as alterações tem que ser feitas por ele mesmo, mais ninguém
+
+### View
+É como um gerente intermediário (middleware) que recebe as notificações da store e passa os dados para as visões abaixo dela
+
+## Diversas implementações
+- Redux (mais popular)
+- Reflux
+- Mobx
+- Vuex (baseado em Redux e Elm)
+- NgRx/store (baseado em Redux e RxJS)
+
+## Bibliotecas baseadas em Flux
+- Servem para comunicação entre componentes
+- Centralizam a informação
+- "Flux libraries are like glasses: you'll know when you need them" - Dan Abramov
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
