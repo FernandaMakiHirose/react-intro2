@@ -31,12 +31,12 @@ A tag input é read-only
 ![ciclodevida](https://user-images.githubusercontent.com/72028645/134172165-a434f09c-282c-4b5b-b3d6-052680a6f05f.png)
 
 ## Entendendo o código
-parte-2/TodoListStatefull.jsx: Stateful <br>
-parte-2/TodoListStateless.jsx: Stateless <br>
-parte-2/TodoListFunctional.jsx: Hook <br>
-parte-3/NameForm.jsx: Componente controlado <br>
-parte-3/SorveteForm.jsx: Componente controlado <br>
-parte-3/FileInput.jsx: Componente não controlado <br>
+`parte-2/TodoListStatefull.jsx`: Stateful <br>
+`parte-2/TodoListStateless.jsx`: Stateless <br>
+`parte-2/TodoListFunctional.jsx`: Hook <br>
+`parte-3/NameForm.jsx`: Componente controlado <br>
+`parte-3/SorveteForm.jsx`: Componente controlado <br>
+`parte-3/FileInput.jsx`: Componente não controlado <br>
 
 ## Documentações
 - [Estilização de componentes e elementos CSS](https://www.w3schools.com/react/react_css.asp)
