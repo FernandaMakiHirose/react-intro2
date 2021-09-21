@@ -105,6 +105,28 @@ Instale a extensão:
 
 - Abra a extensão pelo inspetor do navegador
 
+## APIs HTTP
+- Servem para conectar um ou mais servidores HTTP
+- GET, POST, DELETE, PUT
+- Fetch API
+- Axios
+
+### Fetch API
+- Nativa do browser
+- Oferece uma alternativa ao XMLHttpRequest() e jQuery.ajax()
+- Suporte a Service Workers
+- Não envia e nem recebe cookies (precisa definir a opção credentials)
+- Não rejeita o status do erro HTTP
+
+### Axios
+- Lib de HTTP API
+- Cross-browser
+- Pode monitorar o progresso de um request
+- Melhor treinamento de erros
+- Melhor teste
+- Para instalar:
+>yarn add axios
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
@@ -115,8 +137,9 @@ Instale a extensão:
 `\src\aula-1\parte-3\components\NameForm.jsx`: Componente controlado <br>
 `\src\aula-1\parte-3\components\SorveteForm.jsx`: Componente controlado <br>
 `\src\aula-1\parte-3\components\FileInput.jsx`: Componente não controlado <br>
-`\src\aula-2\components\Counter.jsx`: Redux
-`\src\redux`: Redux
+`\src\aula-2\components\Counter.jsx`: Redux <br>
+`\src\aula-3\Components\Topico3`: Axios <br> 
+`\src\redux`: Redux <br>
 
 ## Documentações
 - [Estilização de componentes e elementos CSS](https://www.w3schools.com/react/react_css.asp)
