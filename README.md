@@ -141,6 +141,26 @@ Instale a extensão:
 - Se você quer performance em React, use dados imutáveis
 - Você consegue usando o shouldComponentUpdate ou React.PureComponent (só faz o update se tiver uma mudança real)
 
+## TDD
+- Test-Driven Development
+- Antecipar erros a nível de desenvolvimento
+- Teste escrito antes da funcionalidade
+- Não descarta a presença de um tester
+
+## Tipos de testes
+- Teste unitários
+- Teste End-To-End (E2E)
+
+## Bibliotecas de teste
+- Jest
+- React-testing-Library
+- Shallow
+- Enzyme
+- Chai
+- Mocha
+- Selenium
+- Puppeteer
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
