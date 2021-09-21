@@ -127,6 +127,20 @@ Instale a extensão:
 - Para instalar:
 >yarn add axios
 
+## Imutabilidade
+- Uma vez criada, uma coleção não pode ser alterada
+- Novas coleções podem ser criadas a partir de uma coleção anterior e uma mutação (setter) como um conjunto
+- Novas coleções são criadas usando o máximo possível da estrutura original, reduzindo a cópia e aumentando a performance
+
+## Benefícios
+- Performance
+- Programação mais simples
+- Debugging mais simples (detecção de mudanças)
+
+## Imutabilidade e React
+- Se você quer performance em React, use dados imutáveis
+- Você consegue usando o shouldComponentUpdate ou React.PureComponent (só faz o update se tiver uma mudança real)
+
 ## Entendendo o código
 `\src\aula-1\parte-1\componentes\ClassName.jsx`: Estilização ClassName <br>
 `\src\aula-1\parte-1\componentes\Inline.jsx`: Estilização Inline <br>
