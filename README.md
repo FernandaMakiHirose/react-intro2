@@ -4,6 +4,16 @@
 - React
 - IDE
 
+## Após clonar o projeto execute
+Instalar as dependências:
+>npm install
+
+React Scripts:
+>npm install react-scripts --save
+
+Yarn Start:
+>yarn start
+
 ## Stateful
 Possui gerenciamento de estados no componente. Construídos usando classes em JS.
 
