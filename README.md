@@ -11,11 +11,8 @@ Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
 Instalar as dependências:
 >npm install
 
-React Scripts:
->npm install react-scripts --save
-
-Yarn Start:
->yarn start
+Abrir o programa (Vá dentro de uma pasta/projeto dentro de `\src`):
+>npm start
 
 ## Stateful
 Possui gerenciamento de estados no componente. Construídos usando classes em JS.
